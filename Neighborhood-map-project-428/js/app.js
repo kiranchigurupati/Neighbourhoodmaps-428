@@ -93,8 +93,8 @@ var LocationMarker = function(data) {
     // mouses over the marker.
     var highlightedIcon = makeMarkerIcon('FFFF24');
 
-    var clientID = '140913472576-e7btpap0ve070eee7gsf9b102c033h00.apps.googleusercontent.com';
-    var clientSecret = 'aaKVhws0z0Q1sAAsNPtY7mGF';
+    var clientID = '5WBUCX0GYJPVUE2C5HUJFXIACLBKN3GOU2UP3ECYO2INBJCU';
+    var clientSecret = '4LQSACSID2FNDFD0Q2HMLE1XXZZORO2AAXLPD5EWXIRMNDD1';
 
     // get JSON request of foursquare data
     var reqURL = 'https://api.foursquare.com/v2/venues/search?ll=' + this.position.lat + ',' + this.position.lng + '&client_id=' + clientID + '&client_secret=' + clientSecret + '&v=20160118' + '&query=' + this.title;
